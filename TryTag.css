@@ -6,5 +6,11 @@ selector{
 /*h1のサイズと色*/
 h1 {
     font-size: 40px;
-    color: rgb(18, 17, 17);
+    color: rgb(241, 0, 0);
+}
+
+/*1つ目の画像*/
+.small {
+    width: 100px;
+    height: 100px;
 }
