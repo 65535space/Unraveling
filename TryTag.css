@@ -14,3 +14,8 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+td {
+    /*水平方向を中央揃え*/
+    text-align: center;
+}
