@@ -6,6 +6,7 @@ selector{
 
 /*h1のサイズと色*/
 h1 {
+    width: 50%;
     font-size: 40px;
     color: rgb(241, 0, 0);
 }
@@ -28,11 +29,24 @@ td {
 .small {
     width: 500px;
     height: 500px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 /*水色の見出し*/
 .Bigletters {
     line-height: 2px;
     font-size: 40px;
-    color: rgb(110, 246, 201);
+    color: lightblue;
+}
+
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    float: right;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
 }

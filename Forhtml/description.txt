@@ -1,0 +1,5 @@
+description
+説明
+list リスト
+term 用語
+detail 詳細
