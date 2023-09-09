@@ -1,3 +1,7 @@
+body {
+  background-image:url('https://th.bing.com/th/id/OIG.IkfOuRHhwhRzXmOnFN9y?pid=ImgGn');
+  background-position: center top;
+}
 
 
 
@@ -11,6 +15,12 @@ h1 {
     overflow: hidden;
     color: #666;
   }
+
+  /*ヘッター*/
+  .header 
+
+
+
 
 .reflection::after {
     content: "";
@@ -40,3 +50,7 @@ h1 {
     display: block;
     margin-bottom: 10px;
 }
+/*bak画像*/
+ 
+
+
