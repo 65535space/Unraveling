@@ -1,0 +1,12 @@
+h1 {
+    width: 50%;
+    font-size: 40px;
+    color: rgb(0, 241, 64);
+}
+/* 画像 */
+.small {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-bottom: 10px;
+}
