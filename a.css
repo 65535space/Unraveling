@@ -1,6 +1,7 @@
 body {
   background-image:url('https://th.bing.com/th/id/OIG.IkfOuRHhwhRzXmOnFN9y?pid=ImgGn');
   background-position: center top;
+  background-repeat:  no-repeat;
 }
 
 
@@ -22,6 +23,7 @@ h1 {
 
 
 
+  /*  */
 .reflection::after {
     content: "";
     display: block;
