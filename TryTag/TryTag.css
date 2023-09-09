@@ -23,7 +23,7 @@ h1 {
 }
 
 .centered {
-    text-align: left;
+    text-align: center;
 }
 
 td {
@@ -53,16 +53,6 @@ td {
     line-height: 2px;
     font-size: 40px;
     color: lightblue;
-}
-
-/*多分いらなくなりそう*/
-.sidebar-another {
-    position: sticky;
-    top: 0;
-    padding: 0;
-    float: right;
-    width: 200px;
-    background-color: white;
 }
 
 .abc {
