@@ -24,14 +24,30 @@
     <!--見出しは<h1>,<h2>,<h3>,<h4>,<h5>,<h6>まであり、大きさは1>6-->
     <h1>htmlの基本</h1>
 
-    <div class="sidebar">
-        <h3>よく使うサイト</h3>
-        <!--リンク先のURLやページ内の特定の要素を指定することができます-->
-        <ul>
-            <li><a href="https://translate.google.co.jp/?hl=ja&sl=ja&tl=en&op=translate"> Google translation</a></li>
-            <li><a href="https://www.youtube.com/">youtube</a></li>
-            <li><a href="https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx">bing AI</a></li>
-        </ul>
+    <div class="container">
+        <aside class="sidebar-L">
+            <ul>
+                <li>ここが左の領域</li>
+                <li>このページの中のリンクをつける予定</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <p class="centered">
+                ここが真ん中の領域(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+            </p>
+        </main>
+        <aside class="sidebar-R">
+            ここが右の領域
+            <h3>よく使うサイト</h3>
+            <!--aタグはリンク先のURLやページ内の特定の要素を指定することができます-->
+            <ul>
+                <li><a href="https://translate.google.co.jp/?hl=ja&sl=ja&tl=en&op=translate">
+                        Google translation</a>
+                </li>
+                <li><a href="https://www.youtube.com/">youtube</a></li>
+                <li><a href="https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx">bing AI</a></li>
+            </ul>
+        </aside>
     </div>
 
     <!--画像を貼る方法-->
@@ -202,10 +218,5 @@
     <dt>JavaScript</dt>
     <dd>ウェブページに動的な機能やインタラクションを追加するためのプログラミング言語です。</dd>
 </dl>
-
-
-
-<form action=""></form>
-
 
 </html>
