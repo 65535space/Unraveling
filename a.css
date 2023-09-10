@@ -4,56 +4,50 @@ body {
   background-repeat:  no-repeat;
 }
 
-h1 {
-  width: 50%;
-  font-size: 40px;
-  position: relative;
-  overflow: hidden;
-  color: #666;
-}
-
 /*ヘッター*/
 .header {
   top: 0;
 }
 
-  /*  */
+
+
+
+
+h1 {
+    width: 50%;
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+    color: #666;
+  }
+
 .reflection::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 100%;
-  position: absolute;
-  top: -180px;
-  left: 0;
-  background-color: #FFF;
-  opacity: 0;
-  transform: rotate(45deg);
-  animation: reflect 2s ease-in-out infinite;
-  -webkit-transform: rotate(45deg);
-  -webkit-animation: reflect 2s ease-in-out infinite;
+  font-size: 40px;
+  position: relative;
+  overflow: hidden;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 50%;
+    position: absolute;
+    
+  
+    background-color: #FFF;
+    opacity: 0;
+    transform: rotate(45deg);
+    animation: reflect 2s ease-in-out infinite;
+    -webkit-transform: rotate(45deg);
+    -webkit-animation: reflect 2s ease-in-out infinite;
 }
-
 @keyframes reflect {
-  0% {
-    transform: scale(0) rotate(45deg);
-    opacity: 0;
+  0% { transform: scale(0) rotate(45deg); opacity: 0;
+   }
+  80% { transform: scale(0) rotate(45deg); opacity: 0.5; 
   }
-
-  80% {
-    transform: scale(0) rotate(45deg);
-    opacity: 0.5;
-  }
-
-  81% {
-    transform: scale(4) rotate(45deg);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(50) rotate(45deg);
-    opacity: 0;
-  }
+  81% { transform: scale(4) rotate(45deg); opacity: 1;
+   }
+  100% { transform: scale(50) rotate(45deg); opacity: 0;
+   }
 }
 
 /* 画像 */
