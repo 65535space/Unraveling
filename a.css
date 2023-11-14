@@ -1,0 +1,67 @@
+body {
+  background-image: url('https://th.bing.com/th/id/OIG.IkfOuRHhwhRzXmOnFN9y?pid=ImgGn');
+  background-position: center top;
+  background-repeat:  no-repeat;
+}
+
+/*ヘッター*/
+.header {
+  top: 0;
+}
+
+
+
+
+
+h1 {
+    width: 50%;
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+    color: #666;
+  }
+
+.reflection::after {
+  font-size: 40px;
+  position: relative;
+  overflow: hidden;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 50%;
+    position: absolute;
+    
+  
+    background-color: #FFF;
+    opacity: 0;
+    transform: rotate(45deg);
+    animation: reflect 2s ease-in-out infinite;
+    -webkit-transform: rotate(45deg);
+    -webkit-animation: reflect 2s ease-in-out infinite;
+}
+@keyframes reflect {
+  0% { transform: scale(0) rotate(45deg); opacity: 0;
+   }
+  80% { transform: scale(0) rotate(45deg); opacity: 0.5; 
+  }
+  81% { transform: scale(4) rotate(45deg); opacity: 1;
+   }
+  100% { transform: scale(50) rotate(45deg); opacity: 0;
+   }
+}
+
+/* 画像 */
+.small {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*bak画像*/
+
+
+.sidebar {
+  top: 0;
+  float: right;
+}
